@@ -1,0 +1,10 @@
+{
+  "scripts": {
+    "clean": "del .\\fighter.min.scr",
+    "build": "npx babel src/fighter.js --out-file fighter.min.scr",
+    "deploy": "copy /b/v/y .\\fighter.min.scr D:\\Yuri\\YandexDisk\\bylins\\jmc-fighter\\settings\\"
+  },
+  "devDependencies": {
+    "@babel/preset-env": "^7.14.4"
+  }
+}
